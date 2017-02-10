@@ -8,8 +8,18 @@
 </head>
 
 <body>
+    <div id="app_3">
+        <p v-if="seen">
+            Now you see me!
+        </p>
+    </div>
     <script type="text/javascript">
-
+        let app3 = new Vue({
+          el:'#app_3',
+          data:{
+            seen : true
+          }
+        })
     </script>
 </body>
 </html>

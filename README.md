@@ -1,1 +1,1 @@
-# vue_demo
+# vue.js_demo

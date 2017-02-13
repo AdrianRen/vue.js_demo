@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Demo</title>
+    <script src="scripts/vue.js" charset="utf-8"></script>
+</head>
+
+<body>
+    <div id="example">
+        <span>{{msg}}</span>
+        <p v-once>{{msg}}</p>
+    </div>
+    <script type="text/javascript">
+        let vm = new Vue({
+          el:'#example',
+          data:{
+             msg: "This is the new shit"
+          }
+        })
+        vm.msg = 'hello';
+    </script>
+</body>
+</html>
